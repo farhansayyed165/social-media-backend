@@ -12,7 +12,7 @@ const se = "_id fullname username email avatar"
 const content = "_id title content images likes comments"
 const app = express();
 // app.use(cookieParser())
-const port = process.env.PORT ? process.env.PORT:5000 ;
+const port = process.env.PORT ? process.env.PORT:5000;
     app.use((req, res, next) => {
         res.setHeader("Access-Control-Allow-Origin", "*");
         res.setHeader(
